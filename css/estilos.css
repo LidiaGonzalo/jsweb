@@ -29,9 +29,36 @@ header h1{
     padding-top:3%;
 }
 #alumnos{
-    background:#f4b408;
+
     min-height: 100vh;
 }
 #localizacion{
+    background:#ccc;
     min-height: 100vh;
+}
+/*tabla*/
+.contenedorTabla{
+    overflow-x: auto;/*scroll*/
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid #ddd;
+}
+th {
+    background:#2980b9;
+    border: none;
+    color:#ffffff;
+    text-align: left;
+    padding: 8px;
+}
+ td {
+    border: none;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even){
+    background-color: #f2f2f2
 }
