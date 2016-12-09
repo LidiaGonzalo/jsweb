@@ -3,6 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <link rel="stylesheet" href="css/estilos.css">
+<script src="js/scripts/jquery-1.12.0.min.js"></script>
+<script src="js/main.js" ></script>
 <title>Alumnos JS</title>
 </head>
 <body>
@@ -15,6 +17,33 @@
    <main>
        <section id="alumnos">
             <header><h1>Listado Alumnos</h1></header>
+            <table id="listado-alumnos">
+            <thead>
+            <tr>
+                <th><input type="checkbox"></th>
+                <th>Nombre</th>
+                <th>Apellidos</th>
+                <th>UF-1841</th>
+                <th>UF-1842</th>
+                <th>UF-1843</th>
+                <th>UF-1844</th>
+                <th>UF-1845</th>
+                <th>UF-1846</th>
+                <th>Nota Media</th>
+                <th></th>
+            </tr>
+            </thead>
+            <tfoot>
+            <tr>
+            <td colspan="3">Numero Alumnos</td>
+            <td colspan="2"></td>
+            <td colspan="3">Nota Media:</td>
+            <td colspan="3"></td>
+            </tr>
+            </tfoot>
+            <tbody>
+            </tbody>
+        </table>
        </section>
        <section id="localizacion">
             <header><h1>Localización</h1></header>

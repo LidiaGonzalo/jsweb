@@ -23,6 +23,7 @@ nav ul li {
 }
 nav ul li a {
     color:#ffffff;
+    text-decoration: none;
 }
 header h1{
     padding-top:3%;
