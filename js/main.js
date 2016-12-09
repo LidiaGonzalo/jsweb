@@ -30,7 +30,7 @@ $(document).ready(function($) {
                 "<td>" + NUF1845 + "</td>" +
                 "<td>" + NUF1846 + "</td>" +
                 "<td></td>" +
-                "<td><button>Editar</button></td>" +
+                "<td class='editar'><a href='#'><i class='fa fa-pencil' aria-hidden='true'></i></a></td>" +
                 "</tr>";
             $('#listado-alumnos tbody').append(html_text);
         }

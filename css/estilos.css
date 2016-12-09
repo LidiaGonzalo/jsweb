@@ -51,12 +51,12 @@ th {
     background:#2980b9;
     border: none;
     color:#ffffff;
-    text-align: left;
+    text-align: center;
     padding: 8px;
 }
  td {
     border: none;
-    text-align: left;
+    text-align: center;
     padding: 8px;
 }
 
@@ -65,4 +65,12 @@ tr:nth-child(even){
 }
 tbody tr:hover {
     background-color: rgba(237,28,64,.1);
+}
+.editar a i{
+    color:black;
+    font-size: 30px;
+}
+.editar a i:hover{
+    color:#2980b9;;
+
 }
