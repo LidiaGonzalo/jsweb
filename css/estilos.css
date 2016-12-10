@@ -66,11 +66,17 @@ tr:nth-child(even){
 tbody tr:hover {
     background-color: rgba(237,28,64,.1);
 }
-.editar a i{
+.editar a i, .borrar a i{
     color:black;
     font-size: 30px;
 }
 .editar a i:hover{
-    color:#2980b9;;
+    color:#2980b9;
 
+}
+.borrar a i:hover{
+    color:#f7484e;
+}
+.total{
+    text-align: right;
 }
